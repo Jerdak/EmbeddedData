@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmbedData", "EmbedData\EmbedData.vcproj", "{28A4D79A-C479-4F01-9552-249EEECFA21F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataWriter", "DataWriter\DataWriter.vcproj", "{81651124-2144-48FA-8558-9C74D0771F0D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{28A4D79A-C479-4F01-9552-249EEECFA21F} = {28A4D79A-C479-4F01-9552-249EEECFA21F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28A4D79A-C479-4F01-9552-249EEECFA21F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28A4D79A-C479-4F01-9552-249EEECFA21F}.Debug|Win32.Build.0 = Debug|Win32
+		{28A4D79A-C479-4F01-9552-249EEECFA21F}.Release|Win32.ActiveCfg = Release|Win32
+		{28A4D79A-C479-4F01-9552-249EEECFA21F}.Release|Win32.Build.0 = Release|Win32
+		{81651124-2144-48FA-8558-9C74D0771F0D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81651124-2144-48FA-8558-9C74D0771F0D}.Debug|Win32.Build.0 = Debug|Win32
+		{81651124-2144-48FA-8558-9C74D0771F0D}.Release|Win32.ActiveCfg = Release|Win32
+		{81651124-2144-48FA-8558-9C74D0771F0D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
